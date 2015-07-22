@@ -14,6 +14,11 @@
 		DD25F9A71B5FD8CF006E0319 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD25F9A61B5FD8CF006E0319 /* Images.xcassets */; };
 		DD25F9AA1B5FD8CF006E0319 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD25F9A81B5FD8CF006E0319 /* LaunchScreen.xib */; };
 		DD25F9B61B5FD8CF006E0319 /* YYFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD25F9B51B5FD8CF006E0319 /* YYFrameTests.m */; };
+		DD25F9C41B5FD9DA006E0319 /* Common in Resources */ = {isa = PBXBuildFile; fileRef = DD25F9BF1B5FD9DA006E0319 /* Common */; };
+		DD25F9C51B5FD9DA006E0319 /* CustomController in Resources */ = {isa = PBXBuildFile; fileRef = DD25F9C01B5FD9DA006E0319 /* CustomController */; };
+		DD25F9C61B5FD9DA006E0319 /* FirstController in Resources */ = {isa = PBXBuildFile; fileRef = DD25F9C11B5FD9DA006E0319 /* FirstController */; };
+		DD25F9C71B5FD9DA006E0319 /* SecondController in Resources */ = {isa = PBXBuildFile; fileRef = DD25F9C21B5FD9DA006E0319 /* SecondController */; };
+		DD25F9C81B5FD9DA006E0319 /* ThirdController in Resources */ = {isa = PBXBuildFile; fileRef = DD25F9C31B5FD9DA006E0319 /* ThirdController */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		DD25F9AF1B5FD8CF006E0319 /* YYFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD25F9B41B5FD8CF006E0319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD25F9B51B5FD8CF006E0319 /* YYFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYFrameTests.m; sourceTree = "<group>"; };
+		DD25F9BF1B5FD9DA006E0319 /* Common */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Common; sourceTree = "<group>"; };
+		DD25F9C01B5FD9DA006E0319 /* CustomController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomController; sourceTree = "<group>"; };
+		DD25F9C11B5FD9DA006E0319 /* FirstController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FirstController; sourceTree = "<group>"; };
+		DD25F9C21B5FD9DA006E0319 /* SecondController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SecondController; sourceTree = "<group>"; };
+		DD25F9C31B5FD9DA006E0319 /* ThirdController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ThirdController; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,11 @@
 		DD25F9981B5FD8CF006E0319 /* YYFrame */ = {
 			isa = PBXGroup;
 			children = (
+				DD25F9BF1B5FD9DA006E0319 /* Common */,
+				DD25F9C01B5FD9DA006E0319 /* CustomController */,
+				DD25F9C11B5FD9DA006E0319 /* FirstController */,
+				DD25F9C21B5FD9DA006E0319 /* SecondController */,
+				DD25F9C31B5FD9DA006E0319 /* ThirdController */,
 				DD25F99D1B5FD8CF006E0319 /* AppDelegate.h */,
 				DD25F99E1B5FD8CF006E0319 /* AppDelegate.m */,
 				DD25F9A01B5FD8CF006E0319 /* ViewController.h */,
@@ -200,8 +215,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD25F9A51B5FD8CF006E0319 /* Main.storyboard in Resources */,
+				DD25F9C51B5FD9DA006E0319 /* CustomController in Resources */,
 				DD25F9AA1B5FD8CF006E0319 /* LaunchScreen.xib in Resources */,
+				DD25F9C61B5FD9DA006E0319 /* FirstController in Resources */,
 				DD25F9A71B5FD8CF006E0319 /* Images.xcassets in Resources */,
+				DD25F9C71B5FD9DA006E0319 /* SecondController in Resources */,
+				DD25F9C81B5FD9DA006E0319 /* ThirdController in Resources */,
+				DD25F9C41B5FD9DA006E0319 /* Common in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
